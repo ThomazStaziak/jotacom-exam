@@ -7,12 +7,12 @@
     <title>@stack('page-title')</title>
     <link rel="stylesheet" href="{{ asset('../../css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('../../css/fonts.css') }}">
-    <link rel="stylesheet" href="{{ asset('../../css/style.css') }}">
     @stack('styles')
     @stack('scripts')
 </head>
 <body>
     @include('layouts.header')
     @yield('content')
+    @include('layouts.footer')
 </body>
 </html>
