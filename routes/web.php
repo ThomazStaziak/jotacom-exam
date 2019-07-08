@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'LeadController@index');
+
+Route::post('/', 'LeadController@create');
