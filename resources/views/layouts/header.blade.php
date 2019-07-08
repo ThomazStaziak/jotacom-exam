@@ -1,8 +1,11 @@
 <header class="main-header col-12">
     <div class="header-content container col-10">
         <span class="logo"><a href="#">lorem ipsum dolor</a></span>
-        <nav class="main-nav col-6">
-            <ul class="menu w-100">
+        <button>
+            ☰
+        </button>
+        <nav class="main-nav col-8">
+            <ul class="menu">
                 <li class="menu-item">
                     <a href="#">lorem ipsum link 1</a>
                 </li>

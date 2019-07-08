@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('../../css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('../../css/fonts.css') }}">
     @stack('styles')
+    <script defer src="{{ asset('../../js/app.js') }}"></script>
     @stack('scripts')
 </head>
 <body>
