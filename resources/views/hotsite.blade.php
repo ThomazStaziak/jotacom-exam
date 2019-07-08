@@ -35,7 +35,7 @@
                 <h3>{{ $message }}</h3>
             @else
                 <h3>realize o teste de cadastro</h3>
-                <form action="/#contact" method="post">
+                <form action="{{ url('/#contact') }}" method="post">
                     @csrf
                     <div class="form-group">
                         <input type="text" name="nome" placeholder="nome" value="{{ old('nome') }}">
