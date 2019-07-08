@@ -21,7 +21,7 @@ class CreateLeadsTable extends Migration
             $table->string('state')->nullable();
             // for a while
             $table->string('city')->nullable();
-            $table->bigInteger('phone_number')->nullable();
+            $table->string('phone_number')->nullable();
             $table->string('contact_time')->nullable();
             $table->timestamps();
         });
