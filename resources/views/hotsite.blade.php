@@ -1,9 +1,9 @@
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('../../css/hotsite.css') }}">
+    <link rel="stylesheet" href="{{ url('css/hotsite.css') }}">
 @endpush
 @push('scripts')
-    <script defer src="{{ asset('../../js/selectHandler.js') }}"></script>
-    <script defer src="{{ asset('../../js/phoneMask.js') }}"></script>
+    <script defer src="{{ url('js/selectHandler.js') }}"></script>
+    <script defer src="{{ url('js/phoneMask.js') }}"></script>
 @endpush
 @push('page-title')
     Hotsite - Jotacom
