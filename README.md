@@ -30,7 +30,7 @@ The objective is create a hotsite!
 	$ php artisan serve
 	```
 ### Globally
-1. Open the project in the Web: [https://jotacom-exam.herokuapp.com/public/](https://jotacom-exam.herokuapp.com/public/)
+1. Open the project in the Web: [https://jotacom-exam.herokuapp.com/](https://jotacom-exam.herokuapp.com/)
 ## Routes
 
 **/** =>  GET method
@@ -51,6 +51,12 @@ Render the login page.
 **/login** => POST method:
 Verify if the user exist and the credentials are correct.
 
+**Login credentials:**
+```
+	Email: admin@admin
+	Password: admin123
+```
+
 **/panel** => GET method:
 Check if the user are logged and show all the leads in a table.
 
@@ -62,3 +68,4 @@ Check if the user are logged and show all the leads in a table.
  5. Needs to show error message
  6. All the user informations needs to be stored in the database
 
+ 
