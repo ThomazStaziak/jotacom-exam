@@ -30,7 +30,7 @@ The objective is create a hotsite!
 	$ php artisan serve
 	```
 ### Globally
-1. Open the project in the Web: [https://jotacom-exam.herokuapp.com/](https://jotacom-exam.herokuapp.com/)
+1. Open the project in the Web: [https://jotacom-exam.herokuapp.com/public/](https://jotacom-exam.herokuapp.com/public/)
 ## Routes
 
 **/** =>  GET method
