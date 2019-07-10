@@ -33,4 +33,10 @@ class LeadController extends Controller
 
         return view('hotsite');
     }
+
+    public function showPanel() {
+        $leads = Lead::all();
+
+        return view('panel', compact('leads'));
+    }
 }
