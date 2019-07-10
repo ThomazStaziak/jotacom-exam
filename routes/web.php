@@ -14,3 +14,10 @@
 Route::get('/', 'LeadController@index');
 
 Route::post('/', 'LeadController@create');
+
+Auth::routes();
+
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/panel', 'LeadController@showPanel');
+});
